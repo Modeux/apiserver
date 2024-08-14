@@ -1,5 +1,5 @@
 .env
 rsa-private.json
-logs/*
+logs/*.log
 .idea
 node_modules
