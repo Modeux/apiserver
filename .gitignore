@@ -1,0 +1,5 @@
+.env
+rsa-private.json
+logs/*
+.idea
+node_modules

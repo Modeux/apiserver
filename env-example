@@ -1,0 +1,16 @@
+### Logs ###
+LOG_PATH=
+
+### DATABASE ###
+DB_HOTS=
+DB_USER=
+DB_PASSWORD=
+DB_DATABASE=
+
+### APP ###
+APP_NAME=heatmap
+APP_RSA_KEY=
+APP_ADDRESS=127.0.0.1:8000
+
+### RabbitMQ ###
+RABBIT_MQ_HOST=
