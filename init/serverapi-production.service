@@ -1,0 +1,18 @@
+[Unit]
+Description=Server API
+After=network.target
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+Type=simple
+User=serverapi
+Group=serverapi
+Restart=always
+RestartSec=5s
+WorkingDirectory=/home/serverapi/bin/serverapi
+ExecStart=/home/serverapi/bin/serverapi/serverapi
+LimitNOFILE=1024
+KillSignal=SIGTERM
+Environment=
